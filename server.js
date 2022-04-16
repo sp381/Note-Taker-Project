@@ -5,7 +5,7 @@ const htmlRoutes = require('./routes/htmlRoutes');
 
 // Create an express server and set port 
 const app = express();
-const port = process.env.PORT || 3001
+const PORT = process.env.PORT || 3001
 
 // Set up body parsing, static and route middleware
 
