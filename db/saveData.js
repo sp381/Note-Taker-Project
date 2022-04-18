@@ -1,18 +1,16 @@
 const util = require('util');
 const fs = require('fs');
-const readNote = util.promisify(fs.readFile);
-const writeNote = util.promisify(fs.writeFile);
 
-function Save() {
-    write(); {
+class Note {
+    write() {
         return writeNote('./db/db.json', JSON.stringify(note));
     };
 
-    read(); {
+    read() {
         return readNote('db/db.json', 'utf8');
     }
 
-    retrieveNotes(); {
+    retrieveNotes() {
         return this.read().then(notes => {
             let parsedNotes;
             try {
