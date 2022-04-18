@@ -1,8 +1,8 @@
 # Note-Taker-Project
 
 ## Deployed URLs:
-Github: 
-Heroku: 
+Github: https://github.com/sp381/Note-Taker-Project 
+Heroku: https://git.heroku.com/enigmatic-dusk-75569.git 
 
 ## Description
 
